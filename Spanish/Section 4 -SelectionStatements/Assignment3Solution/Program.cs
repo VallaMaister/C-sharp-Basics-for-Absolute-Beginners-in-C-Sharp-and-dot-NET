@@ -6,61 +6,62 @@ namespace Assignment3Solution
     {
         static void Main(string[] args)
         {
-            // Write C# code snippet to check whether a entered password is valid or not as per below rules:
-            //  - Password length between 8 and 14 (both inclusive)
-            //  - At least 1 upper case letter
-            //  - At least 1 lower case letter
-            //  - At least 1 numeric letter.
-            // For eg.,
-            //  Password123 --> Valid
-            //  hello9090 --> Invalid
+            // Escribe un fragmento de código en C# para verificar si la contraseña ingresada es válida o no según las siguientes reglas:
+            //  - Longitud de la contraseña entre 8 y 14 caracteres (ambos inclusive)
+            //  - Al menos 1 letra mayúscula
+            //  - Al menos 1 letra minúscula
+            //  - Al menos 1 carácter numérico.
+            // Por ejemplo.,
+            //  Password123 --> Válido
+            //  hello9090 --> Inválido
 
-            // These boolean variables will hold the result of each check
+            // Estas variables booleanas mantendrán el resultado de cada verificación
             bool isLengthValid = false;
             bool isUppercase = false;
             bool isLowercase = false;
             bool isNumeric = false;
 
-            // Read the password as plain text
+            // Leer la contraseña como texto plano
             string password = Console.ReadLine();
 
-            // Check for password length
-            if(password.Length >= 8 && password.Length <= 14) 
+            // Verificar la longitud de la contraseña
+            if (password.Length >= 8 && password.Length <= 14)
             {
                 isLengthValid = true;
             }
 
-            // Iterate through each character of the string
+            // Iterar a través de cada carácter de la cadena
             for (int i = 0; i < password.Length; i++)
             {
                 char ch = password[i];
 
-                // Check for lower case
+                // Verificar si contiene una letra minúscula
                 if (char.IsLower(ch))
                 {
                     isLowercase = true;
                 }
-                // Check for upper case
+                // Verificar si contiene una letra mayúscula
                 if (char.IsUpper(ch))
                 {
                     isUppercase = true;
                 }
-                // Check for numeric
+                // Verificar si contiene un número
                 if (char.IsNumber(ch))
                 {
                     isNumeric = true;
                 }
             }
 
-            // Check whether the password satisfies all conditions
-            if(isLengthValid && isUppercase && isLowercase && isNumeric)
+            // Verificar si la contraseña cumple con todas las condiciones
+            if (isLengthValid && isUppercase && isLowercase && isNumeric)
             {
-                Console.WriteLine("Password is valid");
+                Console.WriteLine("La contraseña es válida");
             }
             else
             {
-                Console.WriteLine("Password is invalid");
+                Console.WriteLine("La contraseña es inválida");
             }
+
         }
     }
 }

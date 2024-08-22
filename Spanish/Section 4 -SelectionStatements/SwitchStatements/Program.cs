@@ -6,36 +6,38 @@ namespace SwitchStatements
     {
         static void Main(string[] args)
         {
-            // Write a C# program to get favourite subject option from user and print the subject name to the console.
+            // Escribe un programa en C# para obtener la opción de la asignatura favorita del usuario y imprimir el nombre de la asignatura en la consola.
 
-            char ch;
+            char ch;  // Declara una variable de tipo char para almacenar la opción del usuario
 
-            Console.WriteLine("Enter your favourite subject option: ");
-            ch = (char)Console.Read();
+            Console.WriteLine("Introduce la opción de tu asignatura favorita: ");
+            ch = (char)Console.Read();  // Lee un carácter de la consola y lo asigna a 'ch'
 
-            switch(ch)
+            // Utiliza una estructura switch para verificar el valor de 'ch' y determinar la asignatura favorita
+            switch (ch)
             {
-                case 'e':
-                {
-                    Console.WriteLine("Favourite subject is English");
-                    break;
-                }
-                case 'm':
-                {
-                    Console.WriteLine("Favourite subject is Maths");
-                    break;
-                }
-                case 's':
-                {
-                    Console.WriteLine("Favourite subject is Science");
-                    break;
-                }
-                default:
-                {
-                    Console.WriteLine("Other than favourites!");
-                    break;
-                }
+                case 'e':  // Si el usuario introduce 'e'
+                    {
+                        Console.WriteLine("La asignatura favorita es Inglés");  // Imprime que la asignatura favorita es Inglés
+                        break;  // Termina el caso
+                    }
+                case 'm':  // Si el usuario introduce 'm'
+                    {
+                        Console.WriteLine("La asignatura favorita es Matemáticas");  // Imprime que la asignatura favorita es Matemáticas
+                        break;  // Termina el caso
+                    }
+                case 's':  // Si el usuario introduce 's'
+                    {
+                        Console.WriteLine("La asignatura favorita es Ciencia");  // Imprime que la asignatura favorita es Ciencia
+                        break;  // Termina el caso
+                    }
+                default:  // Si el usuario introduce cualquier otro valor
+                    {
+                        Console.WriteLine("¡Otra asignatura diferente de las favoritas!");  // Imprime un mensaje indicando que no es una de las asignaturas favoritas
+                        break;  // Termina el caso
+                    }
             }
+
         }
     }
 }

@@ -6,30 +6,32 @@ namespace Assignment2Solution
     {
         static void Main(string[] args)
         {
-            // Assume a variable phonePrice of type integer for holding the price of a phone in dollars.
-            // Write a sequence of C# selection statements to print “budget” or “mid-range” or “high end”  based on the 
-            // price range of the phone - less than 300, between 300 and 800, and more than 800 - respectively
+            // Supongamos una variable phonePrice de tipo entero para almacenar el precio de un teléfono en dólares.
+            // Escribe una secuencia de declaraciones de selección en C# para imprimir "budget" (económico) o "mid-range" (gama media) o "high end" (alta gama) 
+            // en función del rango de precios del teléfono - menos de 300, entre 300 y 800, y más de 800 - respectivamente.
 
-            decimal phonePrice;
+            decimal phonePrice;  // Declarar una variable phonePrice de tipo decimal para almacenar el precio del teléfono
 
+            // Leer el precio del teléfono desde la consola
             string input = Console.ReadLine();
-            phonePrice = decimal.Parse(input);
+            phonePrice = decimal.Parse(input);  // Convertir la entrada del usuario a decimal
 
-            // Note: Compiler infers decimal suffic m or M from variable type phonePrice
-            if(phonePrice < 300)
+            // Nota: El compilador infiere el sufijo decimal 'm' o 'M' del tipo de variable phonePrice
+            if (phonePrice < 300)
             {
-                Console.WriteLine("budget");
+                Console.WriteLine("económico");  // Imprimir "económico" si el precio es menor de 300
             }
-            // Note: M for decimal can be appended
-            else if(phonePrice >= 300M && phonePrice <= 800M)
+            // Nota: 'M' para decimal se puede agregar explícitamente
+            else if (phonePrice >= 300M && phonePrice <= 800M)
             {
-                Console.WriteLine("mid-range");
+                Console.WriteLine("gama media");  // Imprimir "gama media" si el precio está entre 300 y 800
             }
-            // Note: m for decimal can be in lower case as well
-            else if(phonePrice > 800m)
+            // Nota: 'm' para decimal también puede estar en minúsculas
+            else if (phonePrice > 800m)
             {
-                Console.WriteLine("high end");
+                Console.WriteLine("alta gama");  // Imprimir "alta gama" si el precio es mayor de 800
             }
+
         }
     }
 }

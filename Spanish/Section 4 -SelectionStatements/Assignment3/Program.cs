@@ -6,16 +6,17 @@ namespace Assignment3
     {
         static void Main(string[] args)
         {
-            // Write C# code snippet to check whether a entered password is valid or not as per below rules:
-            //  - Password length between 8 and 14 (both inclusive)
-            //  - At least 1 upper case letter
-            //  - At least 1 lower case letter
-            //  - At least 1 numeric letter.
-            // For eg.,
-            //  Password123 --> Valid
-            //  hello9090 --> Invalid
+            // Escribe un fragmento de código en C# para comprobar si una contraseña ingresada es válida o no según las siguientes reglas:
+            //  - Longitud de la contraseña entre 8 y 14 caracteres (ambos inclusive)
+            //  - Al menos 1 letra mayúscula
+            //  - Al menos 1 letra minúscula
+            //  - Al menos 1 número.
+            // Por ejemplo,
+            //  Password123 --> Válida
+            //  hello9090 --> Inválida
 
             // TODO.
+
         }
     }
 }

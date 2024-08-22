@@ -6,8 +6,8 @@ namespace Assignment1
     {
         static void Main(string[] args)
         {
-            // Write C# code snippet to read an integer and print it if it is divisble by 3.
-            // Note that you can use int.Parse(string) function to convert a string to integer.
+            // Escribe un fragmento de código en C# para leer un número entero e imprimirlo si es divisible por 3.
+            // Nota: Puedes usar la función int.Parse(string) para convertir una cadena en un entero.
 
             // TODO.
         }

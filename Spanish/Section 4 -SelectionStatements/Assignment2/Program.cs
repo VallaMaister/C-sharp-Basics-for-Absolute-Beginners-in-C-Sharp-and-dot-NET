@@ -6,9 +6,9 @@ namespace Assignment2
     {
         static void Main(string[] args)
         {
-            // Assume a variable phonePrice of type integer holding the price of a phone in dollars.
-            // Write a sequence of C# selection statements to print “budget” or “mid-range” or “high end”  based on the 
-            // price range of the phone - less than 300, between 300 and 800, and more than 800 - respectively
+            // Supongamos una variable phonePrice de tipo entero para almacenar el precio de un teléfono en dólares.
+            // Escribe una secuencia de declaraciones de selección en C# para imprimir "budget" (económico) o "mid-range" (gama media) o "high end" (alta gama) 
+            // en función del rango de precios del teléfono - menos de 300, entre 300 y 800, y más de 800 - respectivamente.
 
             // TODO.
         }

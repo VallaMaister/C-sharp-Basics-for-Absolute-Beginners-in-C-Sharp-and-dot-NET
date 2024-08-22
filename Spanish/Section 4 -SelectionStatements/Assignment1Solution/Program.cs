@@ -6,24 +6,25 @@ namespace Assignment1Solution
     {
         static void Main(string[] args)
         {
-            // Write C# code snippet to read an integer and print it if it is divisble by 3.
-            // Note that you can use int.Parse(string) function to convert a string to integer.
+            // Escribe un fragmento de código en C# para leer un número entero e imprimirlo si es divisible por 3.
+            // Nota: Puedes usar la función int.Parse(string) para convertir una cadena en un entero.
 
-            // Read the input from the console
+            // Leer la entrada desde la consola
             string input = Console.ReadLine();
 
-            // Parse to convert the input string to integer
+            // Convertir la cadena de entrada a un número entero
             int a = int.Parse(input);
 
-            // Check for divisible by 3
-            if(a % 3 == 0)
+            // Verificar si es divisible por 3
+            if (a % 3 == 0)
             {
-                Console.WriteLine("The entered number is divisible by 3");
+                Console.WriteLine("El número ingresado es divisible por 3");
             }
             else
             {
-                Console.WriteLine("The entered number is NOT divisible by 3");
+                Console.WriteLine("El número ingresado NO es divisible por 3");
             }
+
 
         }
     }

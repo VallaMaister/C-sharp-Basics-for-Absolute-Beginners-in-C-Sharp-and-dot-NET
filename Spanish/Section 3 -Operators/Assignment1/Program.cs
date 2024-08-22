@@ -6,13 +6,14 @@ namespace Assignment1
     {
         static void Main(string[] args)
         {
-            // Write a C# program to calculate (a-b)^2 by reading the values of a and b from the console. 
-            // For eg., 
+            // Escribe un programa en C# para calcular (a-b)^2 leyendo los valores de a y b desde la consola.
+            // Por ejemplo,
             //    (5-3)^2 = 4
             //    (10-6)^2 = 16
-            // Note: The formula of (a-b)^2 = (a x a) + (b x b) - (2 x a x b)
-                
+            // Nota: La fórmula de (a-b)^2 = (a x a) + (b x b) - (2 x a x b)
+
             // TODO.
+
         }
     }
 }
