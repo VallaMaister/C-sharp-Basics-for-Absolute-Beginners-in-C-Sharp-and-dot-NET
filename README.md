@@ -16,8 +16,9 @@ You will be guided at each step of your learning process. This course will help 
 
 This repository is organized into two main folders, one for the Spanish version and one for the English version of the course:
 
-- **/español**: Contains all materials and resources in Spanish.
 - **/english**: Contains all materials and resources in English.
+- **/español**: Contains all materials and resources in Spanish.
+
 
 Each folder includes:
 
@@ -29,7 +30,7 @@ You can choose the version of the course that best suits your language needs.
 
 ## How to Use This Repository
 
-1. Navigate to the folder that corresponds to the language in which you wish to follow the course: `/español` or `/english`.
+1. Navigate to the folder that corresponds to the language in which you wish to follow the course: `/english` or `/español`.
 2. Explore the resources available in the selected folder.
 3. Follow the demos, complete the assignments, and review the solutions to reinforce your knowledge.
 
