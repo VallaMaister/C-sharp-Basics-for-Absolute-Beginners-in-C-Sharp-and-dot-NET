@@ -6,28 +6,30 @@ namespace Assignment2Solution
     {
         static void Main(string[] args)
         {
-            // Write C# code snippet to read a positive integer from the console and print it's factorial value. 
-            // Factorial of a number refers to product of all numbers below it. 
-            // For eg., 
+            // Escribe un fragmento de código en C# para leer un número entero positivo desde la consola e imprimir su valor factorial. 
+            // El factorial de un número se refiere al producto de todos los números por debajo de él. 
+            // Por ejemplo, 
             //  factorial(3) = 3 * 2 * 1 = 6
             //  factorial(5) = 5 * 4 * 3 * 2 * 1 = 120
 
-            // Variable declarations
+            // Declaración de variables
             int a;
-            int result = 1;
+            int resultado = 1;  // Inicializar el resultado en 1
 
-            // Read the input and store in a variable 'a'
+            // Leer la entrada y almacenarla en la variable 'a'
             string s = Console.ReadLine();
-            a = int.Parse(s);
+            a = int.Parse(s);  // Convertir la cadena de entrada a un número entero
 
+            // Bucle para calcular el factorial
             while (a > 0)
             {
-                result = result * a;
-                a--;
+                resultado = resultado * a;  // Multiplicar el resultado por el valor actual de 'a'
+                a--;  // Decrementar 'a' en 1
             }
 
-            // Print the result to the console output
-            Console.WriteLine(result);
+            // Imprimir el resultado en la consola
+            Console.WriteLine(resultado);
+
         }
     }
 }

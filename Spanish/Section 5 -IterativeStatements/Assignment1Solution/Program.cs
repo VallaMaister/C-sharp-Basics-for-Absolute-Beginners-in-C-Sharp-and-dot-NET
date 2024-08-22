@@ -6,27 +6,28 @@ namespace Assignment1Solution
     {
         static void Main(string[] args)
         {
-            // Write C# code snippet read a positive number from the console and print the total number of digits in it.
-            // For eg., 135 --> 3, 90 --> 2, 98788 --> 5
-            // Note that you can use int.Parse(string) function to convert a string to integer. 
-            
-            // Declare the variables
+            // Escribe un fragmento de código en C# para leer un número positivo desde la consola e imprimir la cantidad total de dígitos que tiene.
+            // Por ejemplo, 135 --> 3, 90 --> 2, 98788 --> 5
+            // Nota: Puedes usar la función int.Parse(string) para convertir una cadena en un entero.
+
+            // Declarar las variables
             int i = 0;
             int count = 0;
 
-            // Read the input and store in a variable 'i'
+            // Leer la entrada y almacenarla en la variable 'i'
             string input = Console.ReadLine();
             i = int.Parse(input);
-            
-            // Loop through each time dividing by 10 to count the digits. 
+
+            // Bucle para contar los dígitos, dividiendo cada vez por 10.
             do
             {
-                count++;
-                i = i / 10;
-            }while (i > 0);
+                count++;  // Incrementar el contador de dígitos
+                i = i / 10;  // Dividir 'i' por 10 para eliminar el último dígito
+            } while (i > 0);  // Continuar hasta que 'i' sea 0
 
-            // Print to the console output
+            // Imprimir el resultado en la consola
             Console.WriteLine(count);
+
         }
     }
 }

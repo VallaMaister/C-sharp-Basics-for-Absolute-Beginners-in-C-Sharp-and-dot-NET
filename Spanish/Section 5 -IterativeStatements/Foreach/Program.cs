@@ -6,25 +6,29 @@ namespace Foreach
     {
         static void Main(string[] args)
         {
-            // Foreach statement demo
+            // Demostración de la sentencia Foreach
 
+            // Declarar un array de días de la semana
             string[] days = new string[]
             {
-                "Sunday",
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday"
+                "Domingo",      // Sunday
+                "Lunes",        // Monday
+                "Martes",       // Tuesday
+                "Miércoles",    // Wednesday
+                "Jueves",       // Thursday
+                "Viernes",      // Friday
+                "Sábado"        // Saturday
             };
 
-            foreach(string s in days)
+            // Usar un bucle foreach para iterar sobre cada elemento del array
+            foreach (string s in days)
             {
-                Console.WriteLine(s);
+                Console.WriteLine(s);  // Imprimir cada día en la consola
             }
 
-            Console.WriteLine("End of the program");
+            // Imprimir un mensaje indicando el final del programa
+            Console.WriteLine("¡Fin del programa!");  // End of the program
+
         }
     }
 }

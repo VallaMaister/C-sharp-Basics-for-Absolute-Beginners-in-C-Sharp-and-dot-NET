@@ -6,9 +6,9 @@ namespace Assignment2
     {
         static void Main(string[] args)
         {
-            // Write C# code snippet to read a positive integer from the console and print it's factorial value. 
-            // Factorial of a number refers to product of all numbers below it. 
-            // For eg., 
+            // Escribe un fragmento de código en C# para leer un número entero positivo desde la consola e imprimir su valor factorial. 
+            // El factorial de un número se refiere al producto de todos los números por debajo de él. 
+            // Por ejemplo, 
             //  factorial(3) = 3 * 2 * 1 = 6
             //  factorial(5) = 5 * 4 * 3 * 2 * 1 = 120
 
